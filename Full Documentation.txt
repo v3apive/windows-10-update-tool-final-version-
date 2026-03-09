@@ -1,0 +1,57 @@
+📥 Win10 Universal Deployer v42.9.1
+
+Official Documentation & User Guide | Полная документация и руководство
+🇷🇺 РУССКИЙ (RU)
+📝 О проекте
+
+Win10 Universal Deployer — это специализированный инструмент на базе AutoIt, созданный для автоматизации перехода со старых систем (Windows 7 SP1 / 8.1) на современную Windows 10 22H2. Программа берет на себя самые сложные этапы: поиск браузера, загрузку образа, распаковку и запуск установки в обход ключа.
+🛡 Безопасность и Диски (Важно!)
+
+    Изоляция разделов: Процесс затрагивает ТОЛЬКО Диск C: (системный раздел). Ваши личные файлы, фото и архивы на других дисках (D:, E: и т.д.) останутся в полной безопасности.
+
+    Источник образа: Загрузка идет напрямую из Internet Archive (Archive.org) — это гарантирует чистый, оригинальный ISO без вирусов и модификаций.
+
+    Обход ключа: Использование sources\setup.exe позволяет пропустить ввод лицензионного ключа на этапе начала установки.
+
+    Система отката (Rollback): Если что-то пойдет не так (например, сбой питания), Windows автоматически вернет компьютер в исходное состояние (к вашей старой Win 7/8.1).
+
+🚀 Инструкция по шагам
+
+    Подготовка: Нажмите DOWNLOAD ISO. Следите за прогрессом в окне программы. Убедитесь, что на диске C: есть минимум 17 ГБ свободного места.
+
+    Развертывание: * На Windows 8.1 используйте кнопку MOUNT.
+
+        На Windows 7 используйте EXTRACT (нужен установленный 7-Zip или WinRAR).
+
+    Запуск: Нажмите зеленую кнопку RUN SKIP KEY SETUP. В открывшемся окне установки Windows выберите режим: «Сохранить файлы» или «Чистая установка» (только для диска C:).
+
+⚖️ Отказ от ответственности
+
+Программное обеспечение предоставляется «как есть». Автор не несет ответственности за любую возможную потерю данных или сбои в работе оборудования. Всегда делайте бэкап важных файлов перед любыми системными изменениями. Вы используете данный софт на свой страх и риск.
+🇺🇸 ENGLISH (EN)
+📝 About the Project
+
+Win10 Universal Deployer is a specialized AutoIt-based utility designed to bridge the gap between legacy hardware (Windows 7 SP1 / 8.1) and a modern Windows 10 22H2 environment. It automates the most tedious parts of the upgrade process, ensuring a smooth transition even for non-technical users.
+🛡 Safety & Partition Management
+
+    Partition Isolation: The process is strictly confined to the C: drive (system partition). Your personal data on other logical drives (D:, E:, F:, etc.) remains completely untouched.
+
+    Verified Source: The ISO image is pulled directly from the Internet Archive (Archive.org). This ensures you are downloading a clean, official, and untouched image.
+
+    Skip Product Key: By utilizing the sources\setup.exe entry point, the tool bypasses the initial requirement for a license key during the setup phase.
+
+    Automatic Rollback: In case of an unexpected failure (e.g., power outage), Windows features a built-in mechanism that restores your PC to its previous state (Win 7/8.1) without damage.
+
+🚀 Step-by-Step Guide
+
+    Preparation: Click DOWNLOAD ISO. Track the progress via the status bar. Ensure you have at least 17 GB of free space on your C: drive.
+
+    Deployment: * On Windows 8.1, use the MOUNT button for instant access.
+
+        On Windows 7, use the EXTRACT button (requires 7-Zip or WinRAR installed).
+
+    Launch: Click the green RUN SKIP KEY SETUP button. Once the Windows Setup opens, choose between "Keep files and apps" or "Keep nothing" (Clean install for C: drive only).
+
+⚖️ Disclaimer
+
+This software is provided "as is," without warranty of any kind. The author is not responsible for any data loss or hardware failure. Always perform a full backup of your critical files before proceeding with an OS upgrade. Use this tool at your own risk.
